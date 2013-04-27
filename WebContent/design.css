@@ -1,0 +1,36 @@
+body{
+	padding-top:20px;
+	text-align:center;
+}
+
+h1,p,address{
+	width:480px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1{
+	text-align:center;
+	background-color:#c5e1ed;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:large;
+	color:#2d444f;
+}
+
+p{
+	text-align:left;
+	font-size:0.875em;
+	line-height:1.5em;
+	color:#555555;
+}
+
+address{
+	border-top:solid 9px #c5e1ed;
+	padding-top:4px;
+	text-align:left;
+	font-size:0.625em;
+	font-weight:bold;
+	font-style:normal;
+	color:#5e8eab;
+}
