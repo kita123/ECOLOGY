@@ -1,0 +1,159 @@
+
+body {
+	text-align:center;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	padding-top:0;
+	padding-left:0;
+	padding-right:0;
+	background-color:#2d444f
+	}
+
+table {
+	width:100%
+	}
+
+td {
+	padding:0
+	}
+
+.tdhead {
+	background-color:#2d444f;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:solid 9px #97bdbd
+	}
+
+.tdmenu {
+	vertical-align:top;
+	background-color:#5e8eab;
+	width:140px;
+	}
+
+.tdcontents {
+	background-color:#ffffff;
+	border-left:solid 2px #2d444f;
+	text-align:left
+	}
+
+p.head {
+	text-align:left;
+	margin-left:10px;
+	margin-top:0;
+	font-size:0.625em;
+	font-family:Verdana;
+	font-weight:bold;
+	color:#ffffff;
+	margin-bottom:0
+	}
+
+p.head img {
+	vertical-align:middle;
+	margin-right:0.5em
+	}
+
+p.menu {
+	font-size:0.75em;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:50px;
+	margin-top:0;
+	background-color:#5e8eab;
+	height:2em
+	}
+
+p.menu a {
+	color:#ffffff;
+	background-color:#5e8eab;
+	border-bottom:solid 1px #ffffff;
+	text-decoration:none;
+	display:block;
+	width:100%;
+	line-height:2.5em;
+	text-align:left;
+	padding-left:10px
+	}
+
+p.menu a:hover {
+	background-color:#49abdb
+	}
+
+p.menu span {
+	color:#c5e1ed;
+	display:none
+	}
+
+.contents {
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:30px
+	}
+
+.section {
+	width:470px;
+	margin-left:30px;
+	margin-right:0;
+	text-align:left;
+	margin-top:2em
+	}
+
+h1 {
+	font-size:1.25em;
+	color:#2d444f;
+	background-color:#5e8eab;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:30px;
+	text-align:left;
+	margin-bottom:0;
+	margin-top:0;
+	}
+
+p.img {
+	margin-top:0
+	}
+
+h2 {
+	font-size:1em;
+	margin-top:0;
+	margin-bottom:0;
+	}
+
+h2 img {
+	vertical-align:middle;
+	}
+
+.mark {
+	margin-right:0.3em
+	}
+
+p {
+	font-size:0.875em;
+	line-height:1.5em;
+	color:#555555;
+	margin-top:0.5em
+	}
+
+address {
+	font-size:0.625em;
+	font-weight:bold;
+	font-style:normal;
+	color:#ffffff;
+	border-top:solid 9px #97bdbd;
+	padding-top:10px;
+	padding-left:10px;
+	margin-top:0;
+	text-align:left;
+	padding-bottom:4px
+	}
+
+address a {
+	color:#ffffff;
+	text-decoration:none;
+	border-bottom:dotted 2px orange
+	}
+
+address a:hover {
+	color:#ff8800
+	}

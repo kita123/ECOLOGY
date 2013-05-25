@@ -1,0 +1,145 @@
+
+body {
+	text-align:center;
+	margin-left:0;
+	margin-right:0;
+	padding-left:0;
+	padding-right:0;
+	}
+
+p.head {
+	text-align:left;
+	margin-left:0;
+	margin-top:0;
+	font-size:0.625em;
+	font-family:Verdana;
+	font-weight:bold;
+	color:#5e8eab;
+	margin-bottom:0;
+	background-color:#2d444f;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:10px;
+	position:absolute;
+	left:0;
+	top:5px;
+	width:100%;
+	}
+
+p.head img {
+	vertical-align:middle;
+	margin-right:0.5em
+	}
+
+p.menu {
+	font-size:0.75em;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:50px;
+	margin-top:0;
+	height:2em;
+	width:140px;
+	border-top:solid 1px #5e8eab;
+	position:absolute;
+	left:0;
+	top:85px
+	}
+
+p.menu a {
+	color:#5e8eab;
+	border-bottom:solid 1px #5e8eab;
+	text-decoration:none;
+	display:block;
+	width:100%;
+	line-height:2em
+	}
+
+p.menu a:hover {
+	background-color:#c5e1ed
+	}
+
+p.menu span {
+	color:#c5e1ed;
+	display:none
+	}
+
+.contents {
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	position:absolute;
+	left:160px;
+	top:85px;
+	border-left:solid 1px #5e8eab;
+	border-right:solid 1px #5e8eab;
+	}
+
+.section {
+	margin-left:20px;
+	margin-right:20px;
+	text-align:left;
+	margin-top:2em
+	}
+
+h1 {
+	font-size:1.25em;
+	color:#2d444f;
+	background-color:#5e8eab;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	margin-bottom:0;
+	margin-top:0;
+	margin-left:20px;
+	margin-right:20px;
+	}
+
+p.img {
+	margin-top:0
+	}
+
+h2 {
+	font-size:1em;
+	margin-top:0;
+	margin-bottom:0;
+	}
+
+h2 img {
+	vertical-align:middle;
+	}
+
+.mark {
+	margin-right:0.3em
+	}
+
+p {
+	font-size:0.875em;
+	line-height:1.5em;
+	color:#555555;
+	margin-top:0.5em
+	}
+
+address {
+	font-size:0.625em;
+	font-weight:bold;
+	font-style:normal;
+	color:#5e8eab;
+	border-top:solid 9px #5e8eab;
+	padding-top:4px;
+	margin-top:30px;
+	text-align:left;
+	padding-bottom:4px;
+	margin-left:20px;
+	margin-right:20px;
+	}
+
+address a {
+	color:#5e8eab;
+	text-decoration:none;
+	border-bottom:dotted 2px orange
+	}
+
+address a:hover {
+	color:#ff8800
+	}
+

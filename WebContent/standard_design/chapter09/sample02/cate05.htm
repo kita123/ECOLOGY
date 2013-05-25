@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=shift_jis">
+<title>コンテンツ：お問い合わせ</title>
+
+<style type="text/css">
+<!--
+
+body {
+	text-align:center;
+	}
+
+.contents {
+	width:550px;
+	margin-left:auto;
+	margin-right:auto;
+
+	}
+
+.section {
+	margin-left:20px;
+	margin-right:20px;
+	text-align:left;
+	margin-top:2em
+	}
+
+h1 {
+	font-size:1.25em;
+	color:#2d444f;
+	background-color:#5e8eab;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	margin-bottom:0;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+	}
+
+p.img {
+	margin-top:0
+	}
+
+h2 {
+	font-size:1em;
+	margin-top:0;
+	margin-bottom:0;
+	}
+
+h2 img {
+	vertical-align:middle;
+	}
+
+.mark {
+	margin-right:0.3em
+	}
+
+p {
+	font-size:0.875em;
+	line-height:1.5em;
+	color:#555555;
+	margin-top:0.5em
+	}
+
+p a {
+	color:#49abdb
+	}
+
+address {
+	font-size:0.625em;
+	font-weight:bold;
+	font-style:normal;
+	color:#5e8eab;
+	border-top:solid 9px #5e8eab;
+	padding-top:4px;
+	margin-top:30px;
+	text-align:left;
+	padding-bottom:4px;
+	margin-left:20px;
+	margin-right:20px;
+	}
+
+address a {
+	color:#5e8eab;
+	text-decoration:none;
+	border-bottom:dotted 2px orange
+	}
+
+address a:hover {
+	color:#ff8800
+	}
+
+
+form {
+	color:#555555;
+	font-size:0.875em;
+	text-align:center;
+	border:solid 1px #5e8eab;
+	padding:20px;
+	margin-top:40px
+	}
+
+table {
+	text-align:left
+	}
+
+td {
+	vertical-align:top;
+	padding-bottom:10px
+	}
+
+td.info {
+	padding-right:15px;
+	padding-left:15px;
+	background-image:url(listmark.jpg);
+	background-repeat:no-repeat;
+	background-position:0 4px
+	}
+
+td span {
+	color:#ff6600;
+	font-size:0.75em
+	}
+
+td a {
+	color:#49abdb;
+	font-size:0.75em;
+	}
+
+button {
+	border:solid 0px #ffffff;
+	background-color:#ffffff;
+	width:89px;
+	height:18px;
+	margin-left:5px;
+	margin-right:5px
+	}
+
+optgroup {
+	background-color:#c5e1ed
+	}
+
+option {
+	background-color:#ffffff
+	}
+
+
+-->
+</style>
+</head>
+<body>
+
+<div class="contents">
+<h1><img src="contact.gif" alt="お問い合わせ" width="214" height="24"></h1>
+
+<div class="section">
+<p>
+下記フォームにご記入の上、送信ボタンを押してください。うまく送信できない場合は、<a href="admin@mail.address">admin@mail.address</a>まで直接メールを送ってください。
+</p>
+
+<form action="form.cgi" method="POST">
+<table>
+<tr>
+<td class="info">お名前</td>
+<td><input type="text" name="namae" size="50" tabindex="1">
+    <span>※必須</span></td>
+</tr>
+
+<tr>
+<td class="info">E-Mailアドレス</td>
+<td><input type="text" name="email" size="50" tabindex="2">
+    <span>※必須</span></td>
+</tr>
+
+<tr>
+<td class="info">電話番号</td>
+<td><input type="text" name="tel" size="50" tabindex="3"></td>
+</tr>
+
+<tr>
+<td class="info">お問い合わせ商品</td>
+<td>
+<select name="item" tabindex="4">
+<option>商品を選択してください</option>
+<optgroup label="エコロジー関連商品">
+<option>紙製品</option>
+<option>ペットボトル</option>
+<option>布製品</option>
+<option>ダンボール</option>
+<option>梱包材</option>
+<option>木工製品</option>
+<option>割り箸</option>
+<option>ストロー</option>
+</optgroup>
+
+<optgroup label="コンピューター関連商品">
+<option>コンピューター基盤</option>
+<option>電子機器</option>
+<option>消費電力計測機器</option>
+<option>電源オフキット</option>
+<option>水量調節蛇口セット</option>
+<option>家庭用省エネ10点セット</option>
+<option>ネジ</option>
+<option>工作機械</option>
+<option>アラーム</option>
+</optgroup>
+</select>
+
+<a href="item.htm">商品について</a>
+</td>
+</tr>
+
+<tr>
+<td class="info">お問い合わせ内容</td>
+<td>
+<textarea name="contact" cols="40" rows="7" tabindex="5">
+</textarea>
+</td>
+</tr>
+</table>
+
+<p>
+<button type="submit" tabindex="6">
+<img src="submit.gif" alt="送信">
+</button>
+
+<button type="reset" tabindex="7">
+<img src="reset.gif" alt="キャンセル">
+</button>
+</p>
+</form>
+
+</div>
+
+<address>
+Copyright (C) <a href="mailto:admin@mail.address">Computer Technology Groups</a>. All rights reserved.
+</address>
+</div>
+
+
+
+</body>
+</html>
